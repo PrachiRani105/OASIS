@@ -1,0 +1,200 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prachi Rani | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: #f4f6f8;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  background: #1e293b;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #38bdf8;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #1e293b, #334155);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  animation: fadeIn 2s;
+}
+
+header img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 5px solid blue;
+  box-shadow:0 0 22px rgba(31,155,255,0.6);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+  animation: slideUp 1.5s;
+}
+
+h2 {
+  color: #1e293b;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1e293b;
+  display: inline-block;
+}
+
+.about p {
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+.skills ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.skills li {
+  background: #e2e8f0;
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 6px;
+  border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.skills li:hover {
+  transform: scale(1.1);
+}
+
+.projects .card {
+  background: white;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.contact p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+footer {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+  </style>
+</head>
+<body>  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <header id="home">
+    <!-- Replace profile.png with your photo -->
+    <img src="prachi.jpg" alt="Profile Photo">
+    <h1>Prachi Rani</h1>
+    <p>B.Tech CSE | Web Developer Intern</p>
+  </header>  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a B.Tech Computer Science Engineering student at GL Bajaj Institute of Technology & Management.
+      I have a strong interest in web development and I am currently working as a Web Development Intern
+      at Oasis Infobyte. I enjoy building clean and user-friendly websites.
+    </p>
+  </section>  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>C Programming</li>
+    </ul>
+  </section>  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Portfolio Page</h3>
+        <p>
+            A responsive portfoliopage created using HTML and CSS
+            as Task 2 of the Oasis Infobyte Web Development Internship.
+        </p>
+    </div>
+    <div class="card">
+      <h3>Temperature Converter Web App</h3>
+      <p>
+        A responsive Temperature Converter web application that converts temperature easily between Celsius,Fahrenheit,and Kelvin.
+        This project is developed as Task 3 for the Oasis Infobyte Web Development Internship.
+      </p>
+      <a href="task3.html" target="_blank">View Project</a>
+    </div>
+  </section>  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: prachirani21april@gmail.com</p>
+    <p>LinkedIn: Prachi Rani</p>
+    <p>GitHub: Prachi Rani</p>
+  </section>  <footer>
+    <p>© 2025 Prachi Rani | Portfolio Website</p>
+  </footer></body>
+</html>
